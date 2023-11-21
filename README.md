@@ -11,41 +11,41 @@ This package contains classes representing various actions performed during test
 
 AddToCartSteps
 
-Clicks on the "Add to Cart" button.
+-Clicks on the "Add to Cart" button.
 
-Verifies the product is added to the cart.
+-Verifies the product is added to the cart.
 
 HomeSteps
 
-Navigates to the home page.
+-Navigates to the home page.
 
-Accepts cookies on the home page.
+-Accepts cookies on the home page.
 
 LoginSteps
 
-Clicks on the login icon.
+-Clicks on the login icon.
 
-Enters email and password.
+-Enters email and password.
 
-Clicks on the login button.
+-Clicks on the login button.
 
-Retrieves the login welcome message.
+-Retrieves the login welcome message.
 
 LogoutSteps
 
-Clicks on the logout button.
+-Clicks on the logout button.
 
-Verifies redirection to the home page after logout.
+-Verifies redirection to the home page after logout.
 
 SearchProductSteps
 
-Clicks on the search bar.
+-Clicks on the search bar.
 
-Enters a product name in the search bar.
+-Enters a product name in the search bar.
 
-Clicks on the search button.
+-Clicks on the search button.
 
-Verifies search results for a given product.
+-Verifies search results for a given product.
 
 Page Objects (Package: starter.pageobjects)
 
@@ -53,23 +53,23 @@ This package contains classes representing the locators for different pages.
 
 AccountPage
 
-Locators for elements on the account page.
+-Locators for elements on the account page.
 
 AddToCartPage
 
-Locators for elements related to adding items to the cart.
+-Locators for elements related to adding items to the cart.
 
 HomePage
 
-Locators for elements on the home page.
+-Locators for elements on the home page.
 
 LoginPage
 
-Locators for elements on the login page.
+-Locators for elements on the login page.
 
 SearchProductPage
 
-Locators for elements on the search product page.
+-Locators for elements on the search product page.
 
 Step Definitions (Package: starter.stepdefinitions)
 
@@ -77,59 +77,59 @@ This package contains classes representing step definitions for Cucumber scenari
 
 AddToCartStepsDefinitions
 
-Step definitions for the "Add to Cart" feature.
+-Step definitions for the "Add to Cart" feature.
 
 HomeStepsDefinitions
 
-Step definitions for the home page navigation and cookie acceptance.
+-Step definitions for the home page navigation and cookie acceptance.
 
 LogoutStepsDefinitions
 
-Step definitions for logging out and verifying redirection.
+-Step definitions for logging out and verifying redirection.
 
 SearchProductStepsDefinitions
 
-Step definitions for searching a product and verifying search results.
+-Step definitions for searching a product and verifying search results.
 
 ValidCredentialsLoginStepsDefinitions
 
-Step definitions for logging in with valid credentials and verifying the login message.
+-Step definitions for logging in with valid credentials and verifying the login message.
 
 Features
 
-This section provides an overview of the features and scenarios covered in the project.
+-This section provides an overview of the features and scenarios covered in the project.
 
 
 Add to Cart Feature
 
-Adds a product to the cart and verifies successful addition.
+-Adds a product to the cart and verifies successful addition.
 
 Non-Valid Credentials Login Feature
 
-Covers scenarios of logging in with non-valid credentials.
+-Covers scenarios of logging in with non-valid credentials.
 
 Valid Credentials Login Feature
 
-Logs in with valid credentials and verifies the welcome message.
+-Logs in with valid credentials and verifies the welcome message.
 
 Logout Feature
 
-Logs in, performs a successful logout, and verifies redirection to the home page.
+-Logs in, performs a successful logout, and verifies redirection to the home page.
 
 Search Product Feature
 
-Searches for a product and verifies the search results.
+-Searches for a product and verifies the search results.
 
 How to Run
 
 To execute the tests, follow these steps:
 
-Clone the repository.
+-Clone the repository.
 
-Ensure Maven is installed on your system.
+-Ensure Maven is installed on your system.
 
-Open a terminal and navigate to the project directory.
+-Open a terminal and navigate to the project directory.
 
-Run the command: mvn clean verify
+-Run the command: mvn clean verify
 
 This will run the Serenity BDD tests using Cucumber.
