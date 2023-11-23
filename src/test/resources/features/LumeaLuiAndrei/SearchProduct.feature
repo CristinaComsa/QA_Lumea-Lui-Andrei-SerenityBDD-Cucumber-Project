@@ -7,7 +7,7 @@ Feature: Search product Feature
   @validSearch
   Scenario: Successful search of a given product
     Given I click on the search bar
-    And I entered the product name "Plus National Geographic - Urs panda mare" on search bar
+    And I entered the product name "urs panda" on search bar
     When I click on the search button
     Then I should see results for "Plus National Geographic - Urs panda mare"
 
