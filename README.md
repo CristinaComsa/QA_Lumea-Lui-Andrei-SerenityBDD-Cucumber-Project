@@ -91,9 +91,9 @@ SearchProductStepsDefinitions
 
 -Step definitions for searching a product and verifying search results.
 
-ValidCredentialsLoginStepsDefinitions
+LoginStepsDefinitions
 
--Step definitions for logging in with valid credentials and verifying the login message.
+-Step definitions for logging in with non-valid and valid credentials and verifying the login message.
 
 Features
 
@@ -104,11 +104,9 @@ Add to Cart Feature
 
 -Adds a product to the cart and verifies successful addition.
 
-Non-Valid Credentials Login Feature
+Login Feature
 
 -Covers scenarios of logging in with non-valid credentials.
-
-Valid Credentials Login Feature
 
 -Logs in with valid credentials and verifies the welcome message.
 
